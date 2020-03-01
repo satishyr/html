@@ -1,0 +1,142 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+</head>
+
+ <body>
+     <div class="container">
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+           <h1>Welcome To Order Method Register Page!!</h1>
+        </div>
+   <div class="card-body bg-light">
+	<form action="#" method="post">
+
+      <div class="row">
+      	<div class="col-4">
+      		<label for="Order Mode">Order Mode</label></div>
+      		<div class="col-4">
+      			<label class="radio-inline" name="Order Mode">
+      				<input type="radio" name="radiogroup" value="sale">SALE
+
+
+
+      			</label>
+
+      			<label class="radio-inline" name="Order Mode">
+      				<input type="radio" name="radiogroup" value="purchase">PURCHASE
+                	</label>
+            	</div>
+      	  </div><br/>
+      
+      		<div class="row">
+           <div class="col-4">
+     <label for="shipCode">OrderCode</label></div>
+      <div class="col-4">
+       <input class="form-control" placeholder="OrderCode" type="text" id="shipCode"/>
+	  </div>
+       </div>
+<br/>
+
+
+<div class="row">
+      <div class="col-4">
+     <label for="exeType">Execution Type</label></div>
+     <div class="col-4">
+       <select class="form-control" name="Execution Type">
+         <option>--select--</option>
+         <option>FIFO</option>
+         <option>LIFO</option>
+         <option>FCFO</option>
+         <option>FEFO</option>
+	    </select>
+      </div>
+    </div>
+    <br/>
+
+
+<div class="row">
+      <div class="col-4">
+     <label for="OrderAccdept">Order Accept:</label></div>
+     <div class="col-6">
+		<label class="checkbox-inline" >
+			<input type="checkbox" value="OrderAccdept"/>
+
+          Multi-Model
+		</label>
+	     <label class="checkbox-inline">
+			<input type="checkbox" value="OrderAccdept"/>
+          
+          AcceptReturn
+		</label>
+	
+
+		<label class="checkbox-inline">
+			<input  type="checkbox" value="OrderAccdept"/>
+
+          ServiceExtended
+		</label>
+	
+</div></div>
+<br/>
+
+<div class="row">
+<div class="col-4">
+		<label for="inputDescription">Description</label></div>
+		<div class="col-4">
+       <textarea class="form-control" placeholder="Description"  id="inputDescription" rows="10" ></textarea>
+      </div>
+      </div>
+      <br/>
+
+ <button type="submit" class="btn btn-success">CreateOrderMethod</button>
+
+   </div>
+  </div>
+</form>
+
+<div class="card-footer bg-info text-white">
+Success
+
+</div>
+<br/>
+
+<table class="table table-bordered table-hover">
+<tr class="table-success">
+<th>ID</th>
+<th>NAME</th>
+<th>SALARY</th>
+<th>OPERATIONS</th>
+</tr>
+<tr>
+<td>101</td>
+<td>RAMANA</td>
+<td>50000.23</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+<tr>
+<td>102</td>
+<td>SIVA</td>
+<td>9660.63</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+<tr>
+<td>101</td>
+<td>BRAHMA</td>
+<td>5998.258</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

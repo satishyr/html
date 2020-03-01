@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to JQuery-By Raghu Sir</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h3>JQuery Examples By RAGHU SIR</h3>
+<p id="one">Hello Id</p>
+<p class="two">Hello class</p>
+<p title="text">Hello Attribute</p>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		alert($("#one").text());//id based
+		alert($(".two").text());//class based
+		alert($("[title='text']").text());//attritribute based
+	});
+</script>
+</body>
+</html>

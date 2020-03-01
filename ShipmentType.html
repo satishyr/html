@@ -1,0 +1,149 @@
+<html>
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+</head>
+
+ <body>
+     <div class="container">
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+           <h1>Welcome ShipemtType Module</h1>
+        </div>
+   <div class="card-body bg-light">
+	<form action="#" method="post">
+
+    <div class="row">
+      <div class="col-4">
+     <label for="shipCode">ShipmentMode</label></div>
+     <div class="col-4">
+       
+	    <select class="form-control" name="Shipment Mode">
+         <option>--select--</option>
+         <option>AIR</option>
+         <option>TRUCK</option>
+         <option>SHIP</option>
+         <option>TRAIN</option>
+	    </select>
+      
+    </div>
+    </div>
+    <br/>
+
+    <div class="row">
+     <div class="col-4">
+     <label for="shipCode">shipmentCode</label></div>
+      <div class="col-4">
+       <input class="form-control" placeholder="ShipementCode" type="text" id="shipCode"/>
+	  </div>
+       </div>
+<br/>
+
+<div class="row">
+<div class="col-4">
+     <label for="shipCode">EnableShipment</label></div>
+<div class="col-4">
+	<form>
+	<select class="form-control">
+
+		<option>--select--</option>
+        <option>YES</option>
+        <option>NO</option>
+	</select>
+      </form>
+</div>
+</div>
+<br/>
+
+<div class="row">
+    <div class="col-4">
+        <label for="shipCode">shipmentGrade</label></div>
+          <div class="col-4">
+		      <label class="radio-inline" name="ShipmentGrade">
+			     <input type="radio" name="radiogroup" value="1"/>
+
+          A
+		</label>
+	
+
+
+		<label class="radio-inline" name="ShipmentGrade" >
+			<input type="radio"  name="radiogroup" value="2"/>
+
+          B
+		</label>
+
+
+
+	<label class="radio-inline" name="ShipmentGrade" >
+			<input type="radio"  name="radiogroup" value="3"/>
+
+          C
+		</label>
+</div>
+</div>
+<br/>
+
+<div class="row">
+<div class="col-4">
+		<label for="inputDescription">Description</label></div>
+		<div class="col-4">
+<textarea class="form-control" placeholder="Description"  id="inputDescription" rows="10" ></textarea>
+</div>
+</div>
+<br/>
+
+<button type="submit" class="btn btn-success">CreateShipment</button>
+</div>
+</div>
+</form>
+
+<div class="card-footer bg-info text-white">
+Success
+</div>
+<br/>
+
+<table class="table table-bordered table-hover">
+<tr class="table-success">
+<th>ID</th>
+<th>NAME</th>
+<th>SALARY</th>
+<th>OPERATIONS</th>
+</tr>
+<tr>
+<td>101</td>
+<td>RAMANA</td>
+<td>50000.23</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+<tr>
+<td>102</td>
+<td>SIVA</td>
+<td>9660.63</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+<tr>
+<td>101</td>
+<td>BRAHMA</td>
+<td>5998.258</td>
+<td>
+<a href="#" class="btn btn-danger">EPORT</a>
+<a href="#" class="btn btn-info">VIEW</a>
+</td>
+</tr>
+</table>
+
+</div>
+
+       
+
+</div>
+
+
+</body>
+</html>

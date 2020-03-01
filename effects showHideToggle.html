@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to JQuery-By Raghu Sir</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h3>JQuery Examples By RAGHU SIR</h3>
+
+<input type="submit" value="HIDE DATA" id="one"/>
+<input type="submit" value="SHOW DATA" id="two"/>
+<input type="submit" value="SHOW/HIDE DATA" id="three"/>
+<p id="mydata">Hello From SathyaTech</p>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#one").click(function(){
+$("#mydata").hide();
+});
+
+$("#two").click(function(){
+$("#mydata").show();
+});
+
+$("#three").click(function(){
+$("#mydata").toggle();
+});
+});
+</script>
+</body>
+</html>
